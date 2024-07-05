@@ -12,10 +12,14 @@
 # huas/datax:arm64-20240618
 
 # 2024-07-02,DolphinScheduler
---platform=linux/arm64 bitnami/postgresql:15.2.0
---platform=linux/arm64 bitnami/zookeeper:3.7.1
---platform=linux/arm64 apache/dolphinscheduler-tools:3.2.1
---platform=linux/arm64 apache/dolphinscheduler-api:3.2.1
---platform=linux/arm64 apache/dolphinscheduler-alert-server:3.2.1
---platform=linux/arm64 apache/dolphinscheduler-master:3.2.1
---platform=linux/arm64 apache/dolphinscheduler-worker:3.2.1
+# --platform=linux/arm64 bitnami/postgresql:15.2.0
+# --platform=linux/arm64 bitnami/zookeeper:3.7.1
+# --platform=linux/arm64 apache/dolphinscheduler-tools:3.2.1
+# --platform=linux/arm64 apache/dolphinscheduler-api:3.2.1
+# --platform=linux/arm64 apache/dolphinscheduler-alert-server:3.2.1
+# --platform=linux/arm64 apache/dolphinscheduler-master:3.2.1
+# --platform=linux/arm64 apache/dolphinscheduler-worker:3.2.1
+
+# 2024-07-05，Ubuntu && MySQL
+mysql:latest
+ubuntu:22.04
