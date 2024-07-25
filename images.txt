@@ -34,4 +34,7 @@
 # --platform=linux/amd64 apache/dolphinscheduler-worker:3.2.1
 
 # 2024-07-22,Spark
-spark:3.4.1
+# spark:3.4.1
+
+# 2024-07-25,huas/datax:latest
+huas/datax:latest
