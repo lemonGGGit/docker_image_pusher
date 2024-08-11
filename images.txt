@@ -37,4 +37,7 @@
 # spark:3.4.1
 
 # 2024-07-25,huas/datax:latest
-huas/datax:latest
+# huas/datax:latest
+
+# 2024-08-11,ubuntu:22.04(amd)
+--platform=linux/amd64 ubuntu:22.04
