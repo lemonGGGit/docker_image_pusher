@@ -40,4 +40,7 @@
 # huas/datax:latest
 
 # 2024-08-11,ubuntu:22.04(amd)
---platform=linux/amd64 ubuntu:22.04
+# --platform=linux/amd64 ubuntu:22.04
+
+# 2024-08-12,mysql:8.4.2(amd)
+--platform=linux/amd64 mysql:8.4.2
