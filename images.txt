@@ -49,6 +49,9 @@
 # kanboard/kanboard:v1.2.39
 
 # 2024-09-05,apache/kafka & ubuntu/kafka & ubuntu/zookeeper
---platform=linux/amd64 apache/kafka:3.8.0
---platform=linux/amd64 ubuntu/kafka:3.1-22.04_beta
---platform=linux/amd64 ubuntu/zookeeper:3.1-22.04_beta
+# --platform=linux/amd64 apache/kafka:3.8.0
+# --platform=linux/amd64 ubuntu/kafka:3.1-22.04_beta
+# --platform=linux/amd64 ubuntu/zookeeper:3.1-22.04_beta
+
+# 2024-09-08,bitnami/kafka
+--platform=linux/amd64 bitnami/kafka:3.3.2
