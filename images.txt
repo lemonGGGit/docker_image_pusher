@@ -57,4 +57,5 @@
 # --platform=linux/amd64 bitnami/kafka:3.3.2
 
 # 2024-11-01,xhofe/alist,网盘管理工具
---platform=linux/amd64 xhofe/alist:main
+# --platform=linux/amd64 xhofe/alist:main
+--platform=linux/amd64 vaultwarden/web-vault:v2024.6.2c
