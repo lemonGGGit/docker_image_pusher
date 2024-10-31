@@ -54,4 +54,7 @@
 # --platform=linux/amd64 ubuntu/zookeeper:3.1-22.04_beta
 
 # 2024-09-08,bitnami/kafka
---platform=linux/amd64 bitnami/kafka:3.3.2
+# --platform=linux/amd64 bitnami/kafka:3.3.2
+
+# 2024-11-01,xhofe/alist,网盘管理工具
+--platform=linux/amd64 xhofe/alist:main
