@@ -63,3 +63,8 @@
 
 # 2024-11-24,zerotier/zerotier:1.14.2,内网穿透工具
 --platform=linux/amd64 zerotier/zerotier:1.14.2
+
+# 2024-11-30,arm版本的fluss & Zookeeper
+--platform=linux/arm64 fluss/fluss:latest
+--platform=linux/arm64 fluss/quickstart-flink:1.20-0.5
+--platform=linux/arm64/v8 zookeeper:3.8.4
