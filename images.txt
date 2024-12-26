@@ -74,4 +74,8 @@
 # --platform=linux/amd64 gitlab/gitlab-ce:15.3.2-ce.0
 
 # 2024-12-19,amd版本homeassistant/home-assistant:2024.12
---platform=linux/amd64 homeassistant/home-assistant:2024.12
+# --platform=linux/amd64 homeassistant/home-assistant:2024.12
+
+# 2024-12-26,linux/amd64和amd版本的grafana
+--platform=linux/amd64 grafana/grafana:11.4.0
+--platform=linux/arm64 grafana/grafana:11.4.0
