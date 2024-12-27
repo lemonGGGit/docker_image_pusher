@@ -81,7 +81,10 @@
 # --platform=linux/arm64 grafana/grafana:11.4.0
 
 # 2024-12-27,监控工具prom/prometheus和prom/node-exporter
---platform=linux/amd64 prom/prometheus:v3.0.1
---platform=linux/amd64 prom/node-exporter:v1.8.2
---platform=linux/arm64/v8 prom/prometheus:v3.0.1
---platform=linux/arm64/v8 prom/node-exporter:v1.8.2
+# --platform=linux/amd64 prom/prometheus:v3.0.1
+# --platform=linux/amd64 prom/node-exporter:v1.8.2
+# --platform=linux/arm64/v8 prom/prometheus:v3.0.1
+# --platform=linux/arm64/v8 prom/node-exporter:v1.8.2
+
+# 2024-12-27,Docker版本的1panel
+--platform=linux/amd64 moelin/1panel:v1.10.22-lts
