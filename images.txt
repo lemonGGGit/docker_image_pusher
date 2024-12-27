@@ -77,5 +77,11 @@
 # --platform=linux/amd64 homeassistant/home-assistant:2024.12
 
 # 2024-12-26,linux/amd64和amd版本的grafana
---platform=linux/amd64 grafana/grafana:11.4.0
---platform=linux/arm64 grafana/grafana:11.4.0
+# --platform=linux/amd64 grafana/grafana:11.4.0
+# --platform=linux/arm64 grafana/grafana:11.4.0
+
+# 2024-12-27,监控工具prom/prometheus和prom/node-exporter
+--platform=linux/amd64 prom/prometheus:v3.0.1
+--platform=linux/amd64 prom/node-exporter:v1.8.2
+--platform=linux/arm64/v8 prom/prometheus:v3.0.1
+--platform=linux/arm64/v8 prom/node-exporter:v1.8.2
