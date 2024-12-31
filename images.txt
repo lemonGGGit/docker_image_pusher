@@ -87,7 +87,13 @@
 # --platform=linux/arm64/v8 prom/node-exporter:v1.8.2
 
 # 2024-12-27,Docker版本的1panel
---platform=linux/amd64 moelin/1panel:v1.10.22-lts
+# --platform=linux/amd64 moelin/1panel:v1.10.22-lts
 
 # 2024-12-27,dinky:1.1.0-flink1.18
---platform=linux/amd64 dinkydocker/dinky:1.1.0-flink1.18
+# --platform=linux/amd64 dinkydocker/dinky:1.1.0-flink1.18
+
+# 2024-12-31,dinky-standalone-server的ARM和AMD版本
+--platform=linux/amd64 dinkydocker/dinky-standalone-server:1.2-flink1.18
+--platform=linux/amd64 dinkydocker/dinky-standalone-server:1.2-flink1.20
+--platform=linux/arm64 dinkydocker/dinky-standalone-server:1.2-flink1.18
+--platform=linux/arm64 dinkydocker/dinky-standalone-server:1.2-flink1.20
