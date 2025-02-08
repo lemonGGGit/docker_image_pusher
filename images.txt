@@ -97,4 +97,8 @@
 # --platform=linux/amd64 dinkydocker/dinky-standalone-server:1.2-flink1.20
 # --platform=linux/arm64 dinkydocker/dinky-standalone-server:1.2-flink1.18
 # --platform=linux/arm64 dinkydocker/dinky-standalone-server:1.2-flink1.20
---platform=linux/amd64 dinkydocker/dinky-mysql-server:0.7.5
+# --platform=linux/amd64 dinkydocker/dinky-mysql-server:0.7.5
+
+# 2025-02-08,maxkb和OpenWebUI
+--platform=linux/amd64 1panel/maxkb:v1.9.1
+--platform=linux/amd64 dyrnq/open-webui:main
