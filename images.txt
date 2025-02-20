@@ -100,5 +100,8 @@
 # --platform=linux/amd64 dinkydocker/dinky-mysql-server:0.7.5
 
 # 2025-02-08,maxkb和OpenWebUI
---platform=linux/amd64 1panel/maxkb:v1.9.1
---platform=linux/amd64 dyrnq/open-webui:main
+# --platform=linux/amd64 1panel/maxkb:v1.9.1
+# --platform=linux/amd64 dyrnq/open-webui:main
+
+# 2025-02-20,metabase
+--platform=linux/amd64 metabase/metabase:v0.53.3.x
