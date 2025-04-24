@@ -105,3 +105,6 @@
 
 # 2025-02-20,metabase
 --platform=linux/amd64 metabase/metabase:v0.53.3.x
+
+# 2025-04-24,qdtoday/qd
+--platform=linux/amd64 qdtoday/qd:20250129
