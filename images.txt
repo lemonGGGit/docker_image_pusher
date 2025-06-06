@@ -108,4 +108,7 @@
 
 # 2025-04-24,qdtoday/qd
 # --platform=linux/amd64 qdtoday/qd:20250129
---platform=linux/amd64 redis:alpine
+# --platform=linux/amd64 redis:alpine
+
+# 2025-06-06,思源笔记
+--platform=linux/amd64 b3log/siyuan:v3.1.32
