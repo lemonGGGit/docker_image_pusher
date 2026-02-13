@@ -112,3 +112,6 @@
 
 # 2025-06-06,思源笔记
 --platform=linux/amd64 b3log/siyuan:v3.1.32
+
+# 2026-02-13,Gotify
+--platform=linux/amd64 gotify/server:latest
