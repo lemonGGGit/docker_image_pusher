@@ -117,4 +117,5 @@
 # --platform=linux/amd64 gotify/server:latest
 
 # 2026-03-05, OpenClaw
---platform=linux/amd64 1186258278/openclaw-zh:nightly
+# --platform=linux/amd64 1186258278/openclaw-zh:nightly
+--platform=linux/arm64 1186258278/openclaw-zh:nightly
