@@ -114,4 +114,7 @@
 # --platform=linux/amd64 b3log/siyuan:v3.1.32
 
 # 2026-02-13,Gotify
---platform=linux/amd64 gotify/server:latest
+# --platform=linux/amd64 gotify/server:latest
+
+# 2026-03-05, OpenClaw
+--platform=linux/amd64 1186258278/openclaw-zh:nightly
